@@ -1,0 +1,6 @@
+2018-07-19 15:39:02.5509 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 15:39:02.5632 [INFO] Setting define symbol SCENE_FUSION
+2018-07-19 15:40:23.4103 [INFO] Launching Scene: SampleScene
+2018-07-19 15:40:24.1401 [DEBUG] Connecting
+2018-07-19 15:40:24.1833 [DEBUG] Connecting to room (77796:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
+2018-07-19 15:40:40.3413 [DEBUG] Sent /Users/cyruspellet/Desktop/WeeklyGameJam#54/KSEditorLogs/SessionLogs/session.77796-636676116242495110.log
