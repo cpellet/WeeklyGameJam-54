@@ -4,3 +4,19 @@
 2018-07-19 15:40:24.1401 [DEBUG] Connecting
 2018-07-19 15:40:24.1833 [DEBUG] Connecting to room (77796:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
 2018-07-19 15:40:40.3413 [DEBUG] Sent /Users/cyruspellet/Desktop/WeeklyGameJam#54/KSEditorLogs/SessionLogs/session.77796-636676116242495110.log
+2018-07-19 16:26:35.7479 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 16:35:17.5375 [INFO] Launching Scene: SampleScene
+2018-07-19 16:35:18.1964 [DEBUG] Connecting
+2018-07-19 16:35:18.2497 [DEBUG] Connecting to room (77801:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
+2018-07-19 17:02:36.1859 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 17:02:51.1241 [DEBUG] Invalid token sent as part of a web request token. Token = b5nmSDOAtk8hWifUcZwOEx8CZSbsP4kyZ5cchkAy04NgiymQylWt43cHHwf2Fs2PSlkwG9ZhHi6LtslIqEGZ1hs8a10iuEBpBwFgNGBAuoGTN5lFlU9ZLFigm5Bzfa8QuUimmutCeSZFhNOiykFwn9G1EHErpdrlra1qJwNicZT0k8KaEGoxPpDDkAwRXb9ic5hLhOeNXCfpMqXHuaLQoQK3DLWagEZmba00MOn91YbL5AZw7JOeTFltpRGMd6H
+2018-07-19 17:02:59.3640 [INFO] Launching Scene: SampleScene
+2018-07-19 17:03:00.1475 [DEBUG] Connecting
+2018-07-19 17:03:00.1949 [DEBUG] Connecting to room (77803:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
+2018-07-19 17:13:38.6519 [DEBUG] Sent /Users/cyruspellet/Documents/GitHub/WeeklyGameJam-54/KSEditorLogs/SessionLogs/session.77803-636676165802009110.log
+2018-07-19 17:13:53.1494 [INFO] Launching Scene: SampleScene
+2018-07-19 17:13:53.8386 [DEBUG] Connecting
+2018-07-19 17:13:53.8629 [DEBUG] Connecting to room (77804:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1026
+2018-07-19 17:18:21.5689 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 17:19:34.7624 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 17:21:18.7875 [DEBUG] Scene Fusion version 1.8.0-0
