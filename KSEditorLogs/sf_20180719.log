@@ -22,6 +22,14 @@
 2018-07-19 17:21:18.7875 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-19 19:52:17.0627 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-19 19:56:28.1874 [DEBUG] Refresh token (jCddk3a4jgRMEm3rynFAYkWfmBXjDgbHh21Khpq18YnaU0i9Mc31p4fJ5iftQFqe01KwGjPehCYjKaDwg17ZJ4UkkLIbpIbHqWSOrWz23KLMrXk3WkUZkPLK0kPLWizeZeAEEmbcgSeTe6WWRipi5WUppIqLI3z7nwasrIxjdCJLCn47fWwm9ow8ilfZib4Wjjjsf3Klb82FbHHs0d25pQsabkxBDanJFsLJ25FLFH7g14wa6t11HPe7qKlQkuy) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+<<<<<<< HEAD
 2018-07-19 21:05:47.0875 [DEBUG] Connecting
 2018-07-19 21:05:47.1185 [DEBUG] Connecting to room (77807:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
 2018-07-19 21:08:41.0224 [DEBUG] Sent E:/Kraken/WeeklyGameJam-54/KSEditorLogs/SessionLogs/session.77807-636676311471923725.log
+=======
+2018-07-19 21:05:05.4179 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-19 21:05:27.7577 [INFO] Launching Scene: SampleScene
+2018-07-19 21:05:28.6610 [DEBUG] Connecting
+2018-07-19 21:05:28.6956 [DEBUG] Connecting to room (77807:SceneFusion:SceneFusion) via TCP at ec2-52-25-68-40.us-west-2.compute.amazonaws.com:1025
+2018-07-19 21:37:37.5650 [DEBUG] Scene Fusion version 1.8.0-0
+>>>>>>> master
