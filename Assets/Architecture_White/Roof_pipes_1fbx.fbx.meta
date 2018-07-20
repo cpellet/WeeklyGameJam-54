@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 6b4b16279a95a4ecfaf4839048a0a851
+guid: 9d11357cdff524f8d81eabd7f3fb311b
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: satellite dishes
-    2100002: Ladder
-    2100004: Tubes_and_Pipes
-    2100006: Doors_and_Windows
-    2100008: House
-    2100010: fan
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Futuristicghettobuilding.002
+    100000: Hemi
+    100002: Roof_pipes_1
+    100004: //RootNode
+    400000: Hemi
+    400002: Roof_pipes_1
+    400004: //RootNode
+    2100000: Tubes_and_Pipes
+    2300000: Roof_pipes_1
+    3300000: Roof_pipes_1
+    4300000: Roof_pipes_1
+    10800000: Hemi
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

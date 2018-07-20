@@ -1,0 +1,339 @@
+2018-07-20 07:43:35.3333 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-20 11:37:17.5215 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-20 11:38:06.6428 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-20 14:10:07.6716 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:07.7014 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:07.7241 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:08.3350 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:09.1925 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:17.2662 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:17.2954 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:17.4694 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:18.3242 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:18.3949 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:26.8794 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:27.0111 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:27.4307 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:31.9725 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:32.3550 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:32.4819 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:37.0510 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:37.2388 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:49.2184 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:49.2831 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:49.5288 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:50.6836 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:51.3489 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:52.0273 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:53.2512 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:53.7956 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:53.8801 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:55.3089 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:10:55.3860 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:01.6256 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:02.3097 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:02.3517 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:14.1276 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:14.4216 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:14.8727 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:15.2383 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:16.3989 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:16.7078 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:16.7886 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:16.8976 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:18.0958 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:18.6286 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:19.6487 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:27.2218 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:28.9387 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:29.6702 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:31.0066 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:31.4882 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:33.4417 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:33.6077 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:38.4573 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:38.8976 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:39.2947 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:40.1277 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:42.3132 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:42.3454 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:42.5266 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:43.1691 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:43.5731 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:43.6153 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:54.7207 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:54.8398 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:55.1764 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:55.8471 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:57.0542 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:57.8072 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:11:58.4538 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:47.6258 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:47.8407 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:47.9056 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:48.1295 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:48.1937 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:49.0364 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:49.4311 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:49.5408 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:51.5264 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:51.8049 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:52.2511 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:52.7053 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:52.7883 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:55.8139 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:55.8456 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:55.8781 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
+2018-07-20 14:13:56.4934 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
+UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
+
