@@ -1,4 +1,18 @@
 2018-07-21 16:11:00.4554 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-21 16:11:05.2549 [DEBUG] Scene Fusion version 1.8.0-0
+<<<<<<< Updated upstream
 2018-07-21 16:41:20.1773 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-21 16:44:52.7886 [DEBUG] Scene Fusion version 1.8.0-0
+=======
+2018-07-21 16:44:01.8283 [DEBUG] Refresh token (if6BBYD7giHjHTx9LWdXGrAT9wYG6Die9oLZq6P0xd5Op38Zp0KWGY795IWEn6hksdJmHW0rU4EKLe3ZrWw9UYHdEPn87YCt0m1j7QlJhrNj3iY6S0RnaPLLBFU9iryXhls23RgmidTcAOllcriWTsYG0NfdZR06u4KK6P14G2lJfkuszBi8gPKArl7lko4ztl8fqIgfYlc8MgybmoQdJQotzf31W8JHlC13eAYEmKhQ7kXYc3a9waCuJUd19W1) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+>>>>>>> Stashed changes
+2018-07-21 16:55:40.7605 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-21 17:17:47.1475 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-21 17:17:47.2782 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-21 17:18:01.1473 [DEBUG] Play mode: False
+2018-07-21 17:18:33.3796 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-21 17:18:33.4884 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-21 17:18:40.4004 [DEBUG] Play mode: False
+2018-07-21 17:19:24.1544 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-21 17:19:24.2651 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-21 17:19:54.2378 [DEBUG] Play mode: False
