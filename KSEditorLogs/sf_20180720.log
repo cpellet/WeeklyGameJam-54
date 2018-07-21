@@ -337,3 +337,7 @@ UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProce
 UnityEngine.PostProcessing.EyeAdaptationComponent.get_active () (at Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs:37)
 UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI () (at Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs:305)
 
+2018-07-20 17:24:44.0934 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-20 17:29:49.7057 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-20 17:44:01.1395 [DEBUG] Refresh token (IDkFtpXui6mwHtOyfDDuQf7YLMKCOkixtXlEfWiG2kw10J9GsQicGkReZSslPKse0Dud8rDLjx0ixYZ5fj7eB83Ks3YoNAcrNdJWQ9qNo19tIhzfQjiQmR9C6pO8AykbQzzp7IZqDOoKl530r0d3Zden0yxlIrf1s5cKfCBXkhNhIB0BnTCNAG943FgOelRI3sXCN95eaoOGAh7m8z8LMONafwmQwRyb1FWZ7uAFwCo0oj9d3dcE25Z23IInla0) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-07-20 23:09:40.5858 [DEBUG] Scene Fusion version 1.8.0-0
