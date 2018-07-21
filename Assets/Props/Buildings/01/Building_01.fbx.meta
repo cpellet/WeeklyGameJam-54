@@ -5,12 +5,47 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Building_01
     100002: //RootNode
+    100004: Floors_Corridor
+    100006: Floors_Flats
+    100008: Ground_flor_Entrance
+    100010: Ground_Flour_Flatts
+    100012: Roof
+    100014: Roof_Entrance
+    100016: Stairs
     400000: Building_01
     400002: //RootNode
+    400004: Floors_Corridor
+    400006: Floors_Flats
+    400008: Ground_flor_Entrance
+    400010: Ground_Flour_Flatts
+    400012: Roof
+    400014: Roof_Entrance
+    400016: Stairs
     2100000: No Name
     2300000: Building_01
+    2300002: Floors_Corridor
+    2300004: Floors_Flats
+    2300006: Ground_flor_Entrance
+    2300008: Ground_Flour_Flatts
+    2300010: Roof
+    2300012: Roof_Entrance
+    2300014: Stairs
     3300000: Building_01
+    3300002: Floors_Corridor
+    3300004: Floors_Flats
+    3300006: Ground_flor_Entrance
+    3300008: Ground_Flour_Flatts
+    3300010: Roof
+    3300012: Roof_Entrance
+    3300014: Stairs
     4300000: Building_01
+    4300002: Stairs
+    4300004: Roof_Entrance
+    4300006: Roof
+    4300008: Ground_Flour_Flatts
+    4300010: Floors_Flats
+    4300012: Floors_Corridor
+    4300014: Ground_flor_Entrance
   externalObjects: {}
   materials:
     importMaterials: 1
