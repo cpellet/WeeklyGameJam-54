@@ -27747,3 +27747,70 @@ InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
 2018-07-22 21:56:16.7967 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-22 21:56:16.8626 [DEBUG] Play mode: True, sync in play mode: False
 2018-07-22 21:56:34.7296 [DEBUG] Play mode: False
+2018-07-22 21:59:11.1896 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:59:11.2346 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:01:13.1738 [DEBUG] Play mode: False
+2018-07-22 22:01:35.1417 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:01:35.1995 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:02:19.6930 [DEBUG] Play mode: False
+2018-07-22 22:02:56.4797 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:02:56.5619 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:03:19.3954 [DEBUG] Play mode: False
+2018-07-22 22:04:13.6183 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:04:13.7008 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:04:27.8862 [DEBUG] Play mode: False
+2018-07-22 22:05:12.4859 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:05:12.5497 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:05:31.0379 [DEBUG] Play mode: False
+2018-07-22 22:06:01.5835 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:06:01.8424 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:06:16.2791 [DEBUG] Play mode: False
+2018-07-22 22:11:24.9297 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:11:24.9859 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:11:27.5318 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Slot.RefreshAmount () (at Assets/Scripts/Slot.cs:42)
+Slot.Populate (.Item item) (at Assets/Scripts/Slot.cs:36)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<executeAction>c__Iterator0:MoveNext() (at Assets/Scripts/InventoryManager.cs:52)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2018-07-22 22:11:30.1165 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Slot.RefreshAmount () (at Assets/Scripts/Slot.cs:42)
+Slot.Populate (.Item item) (at Assets/Scripts/Slot.cs:36)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:54)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 22:11:30.9566 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Slot.RefreshAmount () (at Assets/Scripts/Slot.cs:42)
+Slot.Populate (.Item item) (at Assets/Scripts/Slot.cs:36)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:54)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 22:11:34.0221 [DEBUG] Play mode: False
+2018-07-22 22:12:07.5428 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:12:07.5854 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:12:17.5116 [DEBUG] Play mode: False
+2018-07-22 22:12:35.0228 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:12:35.0723 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:12:44.9807 [DEBUG] Play mode: False
+2018-07-22 22:16:44.8320 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:16:44.8902 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:16:55.6896 [DEBUG] Play mode: False
+2018-07-22 22:17:46.2083 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:17:46.2793 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:18:00.6816 [DEBUG] Play mode: False
+2018-07-22 22:18:23.6698 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 22:18:23.7243 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 22:19:06.0304 [DEBUG] Play mode: False

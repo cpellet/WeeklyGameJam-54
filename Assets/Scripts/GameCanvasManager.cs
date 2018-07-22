@@ -11,6 +11,7 @@ public class GameCanvasManager : MonoBehaviour {
 	private int activeItems;
 	public Slot[] slots;
 	private int freeSlot;
+	private int tempSlot;
 
 	void Start(){
 		healthSlider.value = 100;
@@ -22,15 +23,15 @@ public class GameCanvasManager : MonoBehaviour {
 	void Update(){
 		if (activeItems != 0){
 			if (Input.GetAxis("Mouse ScrollWheel") > 0f){
-				if(selectedSlot == activeItems){
-					swithSelection(1);
+				if(selectedSlot == activeItems - 1){
+					swithSelection(0);
 				}else{
 					swithSelection(selectedSlot+1);
 				}
 				Debug.Log(selectedSlot);
 			}else if (Input.GetAxis("Mouse ScrollWheel") < 0f){
-				if (selectedSlot == 1){
-					swithSelection(activeItems);
+				if (selectedSlot == 0){
+					swithSelection(activeItems-1);
 				}else{
 					swithSelection(selectedSlot-1);
 				}
@@ -40,19 +41,25 @@ public class GameCanvasManager : MonoBehaviour {
 	}
 
 	public void AddItem(Item item){
-		FindFreeSlots();
-		if (freeSlot == 100){
-			Debug.Log("Inventory Full");
+		CheckIfAlreadyOwned(item);
+		if (tempSlot != 100){
+			slots[tempSlot].amount ++;
+			slots[tempSlot].RefreshAmount();
 		}else{
-			if (activeItems == 0){
-				activeItems++;
-				slots[freeSlot].Populate(item);
-				slots[freeSlot].ToggleSelect();
-				selectedSlot = freeSlot;
+			FindFreeSlots();
+			if (freeSlot == 100){
+				Debug.Log("Inventory Full");
 			}else{
-				activeItems++;
-				slots[freeSlot].Populate(item);
-				swithSelection(freeSlot);
+				if (activeItems == 0){
+					activeItems++;
+					slots[freeSlot].Populate(item);
+					slots[freeSlot].ToggleSelect();
+					selectedSlot = freeSlot;
+				}else{
+					activeItems++;
+					slots[freeSlot].Populate(item);
+					swithSelection(freeSlot);
+				}
 			}
 		}
 	}
@@ -68,6 +75,16 @@ public class GameCanvasManager : MonoBehaviour {
 		for (int i = 0; i < slots.Length; i++){
 			if (slots[i].isOccupied == false){
 				freeSlot = i;
+				break;
+			}
+		}
+	}
+
+	void CheckIfAlreadyOwned(Item item){
+		tempSlot = 100;
+		for (int i = 0; i < slots.Length; i++){
+			if(slots[i].containedItem == item){
+				tempSlot = i;
 				break;
 			}
 		}

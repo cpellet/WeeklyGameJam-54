@@ -14,6 +14,7 @@ public class Slot : MonoBehaviour {
 	public Animator anim;
 	[HideInInspector]
 	public int amount;
+	public Text amountText;
 
 	void Start(){
 		Initialise();
@@ -23,6 +24,7 @@ public class Slot : MonoBehaviour {
 		slot = this.gameObject;
 		slot.SetActive(false);
 		amount = 0;
+		RefreshAmount();
 		isOccupied = false;
 		isSelected = false;
 	}
@@ -31,8 +33,13 @@ public class Slot : MonoBehaviour {
 		slot.SetActive(true);
 		isOccupied = true;
 		amount = 1;
+		RefreshAmount();
 		containedItem = item;
 		itemImage.sprite = containedItem.preview;
+	}
+
+	public void RefreshAmount(){
+		amountText.text = amount.ToString();
 	}
 
 	public void ToggleSelect(){
