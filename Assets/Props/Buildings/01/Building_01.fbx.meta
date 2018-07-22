@@ -28,6 +28,8 @@ ModelImporter:
     100044: GroundFloor.001
     100046: GroundFloor_Walls.001
     100048: Stairs.001
+    100050: Floors.000
+    100052: Floors_Floor
     400000: Building_01
     400002: //RootNode
     400004: Floors_Corridor
@@ -53,6 +55,8 @@ ModelImporter:
     400044: GroundFloor.001
     400046: GroundFloor_Walls.001
     400048: Stairs.001
+    400050: Floors.000
+    400052: Floors_Floor
     2100000: No Name
     2300000: Building_01
     2300002: Floors_Corridor
@@ -78,6 +82,8 @@ ModelImporter:
     2300042: GroundFloor.001
     2300044: GroundFloor_Walls.001
     2300046: Stairs.001
+    2300048: Floors.000
+    2300050: Floors_Floor
     3300000: Building_01
     3300002: Floors_Corridor
     3300004: Floors_Flats
@@ -102,6 +108,8 @@ ModelImporter:
     3300042: GroundFloor.001
     3300044: GroundFloor_Walls.001
     3300046: Stairs.001
+    3300048: Floors.000
+    3300050: Floors_Floor
     4300000: Building_01
     4300002: Stairs
     4300004: Roof_Entrance
@@ -126,6 +134,8 @@ ModelImporter:
     4300042: GroundFloor_Walls.001
     4300044: GroundFloor.001
     4300046: Stairs.001
+    4300048: Floors.000
+    4300050: Floors_Floor
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
