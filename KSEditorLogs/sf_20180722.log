@@ -27579,3 +27579,171 @@ InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
 2018-07-22 18:37:44.8357 [DEBUG] Scene Fusion version 1.8.0-0
 2018-07-22 18:37:44.9049 [DEBUG] Play mode: True, sync in play mode: False
 2018-07-22 18:37:52.3172 [DEBUG] Play mode: False
+2018-07-22 21:05:57.0532 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:06:06.4736 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:06:06.5525 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:06:18.4575 [DEBUG] Play mode: False
+2018-07-22 21:06:56.5956 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:08:23.9116 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:08:23.9798 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:08:32.8727 [DEBUG] Play mode: False
+2018-07-22 21:09:19.5113 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:09:19.5813 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:09:39.2383 [DEBUG] Play mode: False
+2018-07-22 21:10:12.8707 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:10:12.9382 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:10:17.8167 [DEBUG] Play mode: False
+2018-07-22 21:25:03.3242 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:25:10.0242 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:25:10.0728 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:25:17.5849 [DEBUG] Play mode: False
+2018-07-22 21:26:04.0989 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:26:04.1802 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:26:13.2793 [DEBUG] Play mode: False
+2018-07-22 21:26:59.7608 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:26:59.8302 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:27:15.9873 [DEBUG] Play mode: False
+2018-07-22 21:27:43.3844 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:27:43.4558 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:27:58.6874 [DEBUG] Play mode: False
+2018-07-22 21:29:53.0999 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:30:15.1356 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:31:22.2786 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:31:22.3532 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:31:39.5780 [DEBUG] Play mode: False
+2018-07-22 21:33:54.9814 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:33:55.0611 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:34:01.9098 [DEBUG] Play mode: False
+2018-07-22 21:34:50.2331 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:34:50.3215 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:35:03.1611 [DEBUG] Play mode: False
+2018-07-22 21:37:45.6062 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:38:59.8801 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:39:33.9613 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:39:34.0274 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:39:41.9817 [DEBUG] Play mode: False
+2018-07-22 21:44:45.9251 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:44:45.9837 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:44:56.4570 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:55)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:44:57.2676 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:55)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:45:07.9211 [DEBUG] Play mode: False
+2018-07-22 21:45:59.2337 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:45:59.3034 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:46:11.5179 [DEBUG] Play mode: False
+2018-07-22 21:46:24.8521 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:46:24.8941 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:47:00.5692 [DEBUG] Play mode: False
+2018-07-22 21:47:34.1857 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:47:34.2454 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:48:15.7369 [DEBUG] Play mode: False
+2018-07-22 21:49:23.4727 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:49:23.5337 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:49:26.3553 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<executeAction>c__Iterator0:MoveNext() (at Assets/Scripts/InventoryManager.cs:52)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2018-07-22 21:49:26.9078 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:29.3004 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:35)
+
+2018-07-22 21:49:29.6209 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:35)
+
+2018-07-22 21:49:29.7112 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:35)
+
+2018-07-22 21:49:29.8232 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:35)
+
+2018-07-22 21:49:30.0315 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:49:30.0583 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:49:30.1147 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:49:30.2382 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.Update () (at Assets/Scripts/GameCanvasManager.cs:28)
+
+2018-07-22 21:49:31.0047 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:31.3530 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:31.4726 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:31.6160 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:31.7708 [ERROR] IndexOutOfRangeException: Array index is out of range.
+GameCanvasManager.swithSelection (Int32 newSlot) (at Assets/Scripts/GameCanvasManager.cs:54)
+GameCanvasManager.AddItem (.Item item) (at Assets/Scripts/GameCanvasManager.cs:49)
+InventoryManager.pickup () (at Assets/Scripts/InventoryManager.cs:69)
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:54)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 21:49:34.5949 [DEBUG] Play mode: False
+2018-07-22 21:52:25.3217 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:52:25.3809 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:53:27.9842 [DEBUG] Play mode: False
+2018-07-22 21:56:16.7967 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 21:56:16.8626 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 21:56:34.7296 [DEBUG] Play mode: False

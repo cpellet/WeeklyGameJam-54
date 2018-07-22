@@ -6,17 +6,15 @@ public class GameCanvasManager : MonoBehaviour {
 	public Slider healthSlider;
 	public Slider memoryRecoveredSlider;
 	public Item[] playerItems;
-	public GameObject content;
-	private int activeItems;
-	private GameObject slot;
 	private Image slotImage;
 	private int selectedSlot;
-	private Button[] slots;
+	private int activeItems;
+	public Slot[] slots;
+	private int freeSlot;
 
 	void Start(){
 		healthSlider.value = 100;
 		memoryRecoveredSlider.value = 0;
-		InitialiseItems();
 		activeItems = 0;
 		selectedSlot = 0;
 	}
@@ -25,37 +23,53 @@ public class GameCanvasManager : MonoBehaviour {
 		if (activeItems != 0){
 			if (Input.GetAxis("Mouse ScrollWheel") > 0f){
 				if(selectedSlot == activeItems){
-					selectedSlot = 1;
+					swithSelection(1);
 				}else{
-					selectedSlot ++;
+					swithSelection(selectedSlot+1);
 				}
 				Debug.Log(selectedSlot);
 			}else if (Input.GetAxis("Mouse ScrollWheel") < 0f){
 				if (selectedSlot == 1){
-					selectedSlot = activeItems;
+					swithSelection(activeItems);
 				}else{
-					selectedSlot --;
+					swithSelection(selectedSlot-1);
 				}
 				Debug.Log(selectedSlot);
 			}
 		}
 	}
 
-	void InitialiseItems(){
-		for (int i = 0; i < (content.transform.childCount); i++){
-			//transform.GetChild(i).gameObject.SetActive(false);
-			//slots[i] = content.transform.GetChild(i + 1).GetComponent<Button>();
-			//Debug.Log("executed");
+	public void AddItem(Item item){
+		FindFreeSlots();
+		if (freeSlot == 100){
+			Debug.Log("Inventory Full");
+		}else{
+			if (activeItems == 0){
+				activeItems++;
+				slots[freeSlot].Populate(item);
+				slots[freeSlot].ToggleSelect();
+				selectedSlot = freeSlot;
+			}else{
+				activeItems++;
+				slots[freeSlot].Populate(item);
+				swithSelection(freeSlot);
+			}
 		}
 	}
 
-	public void AddItem(Item item){
-		slot = content.transform.GetChild(activeItems+1).gameObject;
-		slot.SetActive(true);
-		slotImage = slot.GetComponent<Slot>().itemImage;
-		slotImage.sprite = item.preview;
-		activeItems ++;
-		selectedSlot = activeItems;
+	void swithSelection(int newSlot){
+		slots[selectedSlot].ToggleSelect();
+		slots[newSlot].ToggleSelect();
+		selectedSlot = newSlot;
 	}
 
+	void FindFreeSlots(){
+		freeSlot = 100;
+		for (int i = 0; i < slots.Length; i++){
+			if (slots[i].isOccupied == false){
+				freeSlot = i;
+				break;
+			}
+		}
+	}
 }
