@@ -27494,3 +27494,88 @@ CrosshairManager.Update () (at Assets/Scripts/CrosshairManager.cs:24)
 2018-07-22 17:44:20.2931 [DEBUG] Play mode: True, sync in play mode: False
 2018-07-22 17:44:41.6290 [DEBUG] Play mode: False
 2018-07-22 17:48:26.9301 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:51:29.1181 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:52:11.9874 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:52:12.0544 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 17:52:21.7965 [DEBUG] Play mode: False
+2018-07-22 17:54:03.4215 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:59:35.5871 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:59:53.3484 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 17:59:53.4049 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 17:59:56.1920 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:49)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 17:59:58.9817 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InventoryManager+<executeAction>c__Iterator0.MoveNext () (at Assets/Scripts/InventoryManager.cs:49)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+InventoryManager:Update() (at Assets/Scripts/InventoryManager.cs:37)
+
+2018-07-22 18:00:02.7114 [DEBUG] Play mode: False
+2018-07-22 18:01:09.5365 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:01:09.5819 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:01:11.1913 [DEBUG] Play mode: False
+2018-07-22 18:01:25.2363 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:01:25.2839 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:01:32.7735 [DEBUG] Play mode: False
+2018-07-22 18:05:07.0265 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:05:13.4781 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:05:13.5190 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:05:21.1820 [DEBUG] Play mode: False
+2018-07-22 18:05:44.7554 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:05:44.8212 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:05:57.2016 [DEBUG] Play mode: False
+2018-07-22 18:06:27.2715 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:06:27.3168 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:06:39.8931 [DEBUG] Play mode: False
+2018-07-22 18:07:22.1454 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:07:22.2062 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:07:36.3805 [DEBUG] Play mode: False
+2018-07-22 18:11:32.0683 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:11:32.1106 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:11:41.3024 [DEBUG] Play mode: False
+2018-07-22 18:15:36.1909 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:16:31.3526 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:16:53.5644 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:16:53.6138 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:17:10.0028 [DEBUG] Play mode: False
+2018-07-22 18:18:24.1591 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:18:24.2331 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:18:41.7441 [DEBUG] Play mode: False
+2018-07-22 18:23:27.6928 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:23:27.7639 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:23:41.1922 [DEBUG] Play mode: False
+2018-07-22 18:25:13.6824 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:25:35.1282 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:25:35.1830 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:25:53.5391 [DEBUG] Play mode: False
+2018-07-22 18:31:32.8954 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:31:32.9645 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:31:45.6225 [DEBUG] Play mode: False
+2018-07-22 18:33:01.8547 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:33:01.9330 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:33:30.3112 [DEBUG] Play mode: False
+2018-07-22 18:33:52.9090 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:33:52.9504 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:33:58.5428 [DEBUG] Play mode: False
+2018-07-22 18:34:18.0124 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:34:18.0763 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:34:21.8946 [DEBUG] Play mode: False
+2018-07-22 18:35:04.1330 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:35:04.2020 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:35:18.2620 [DEBUG] Play mode: False
+2018-07-22 18:35:49.4227 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:35:49.4858 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:35:58.5056 [DEBUG] Play mode: False
+2018-07-22 18:36:32.1596 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:36:32.2122 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:36:39.5889 [DEBUG] Play mode: False
+2018-07-22 18:37:19.8683 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:37:19.9365 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:37:26.8010 [DEBUG] Play mode: False
+2018-07-22 18:37:44.8357 [DEBUG] Scene Fusion version 1.8.0-0
+2018-07-22 18:37:44.9049 [DEBUG] Play mode: True, sync in play mode: False
+2018-07-22 18:37:52.3172 [DEBUG] Play mode: False
