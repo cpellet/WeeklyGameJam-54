@@ -5,7 +5,6 @@ public class Slot : MonoBehaviour {
 
 	private GameObject slot;
 	public Image itemImage;
-	[HideInInspector]
 	public Item containedItem;
 	[HideInInspector]
 	public bool isOccupied;
@@ -27,6 +26,7 @@ public class Slot : MonoBehaviour {
 		RefreshAmount();
 		isOccupied = false;
 		isSelected = false;
+		containedItem = null ;
 	}
 
 	public void Populate(Item item){

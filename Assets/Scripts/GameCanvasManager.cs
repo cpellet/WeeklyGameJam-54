@@ -6,20 +6,20 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class GameCanvasManager : MonoBehaviour {
 
 	public Slider healthSlider;
-	public Slider memoryRecoveredSlider;
 	public Image[] healthComponents;
 	public Text healthLabel;
 	public Image damagePanel;
+
 	public GameObject pauseMenu;
-	private Image slotImage;
+
 	private int selectedSlot;
 	private int activeItems;
 	public Slot[] slots;
 	private int freeSlot;
 	private int tempSlot;
 
-	public float minSurviveFall = 1f; //the time that the player can spend in the air without taking damage
-    public int damageForSeconds; //damage taken for 1 second in air (for airTime = 1)
+	public float minSurviveFall = 1f;
+    public int damageForSeconds;
     private RigidbodyFirstPersonController _controller;
     private float airTime = 0;
 
@@ -28,7 +28,6 @@ public class GameCanvasManager : MonoBehaviour {
 	void Start(){
 		_controller = GameObject.FindGameObjectWithTag("Player").GetComponent<RigidbodyFirstPersonController>();
 		healthSlider.value = 100;
-		memoryRecoveredSlider.value = 0;
 		activeItems = 0;
 		selectedSlot = 0;
 		damagePanel.enabled = false;
@@ -52,8 +51,23 @@ public class GameCanvasManager : MonoBehaviour {
 			}
 		}
 
-		if(Input.GetKeyDown(KeyCode.RightShift)){
-			pauseMenu.SetActive(true);
+		if(Input.GetKeyDown(KeyCode.E)){
+			if(slots[selectedSlot].containedItem == null){
+				return;
+			} 
+			if(slots[selectedSlot].containedItem.itemType == Item.type.food){
+				if (slots[selectedSlot].amount == 1){
+					Regen(slots[selectedSlot].containedItem.healthRegen);
+					am.BroadcastMessage(Color.green, (slots[selectedSlot].containedItem.name + " : + " + slots[selectedSlot].containedItem.healthRegen.ToString() + " HP"));
+					slots[selectedSlot].Initialise();
+					slots[selectedSlot].gameObject.SetActive(false);
+				}else{
+					Regen(slots[selectedSlot].containedItem.healthRegen);
+					am.BroadcastMessage(Color.green, (slots[selectedSlot].containedItem.name + " : + " + slots[selectedSlot].containedItem.healthRegen.ToString() + " HP"));
+					slots[selectedSlot].amount -=1;
+					slots[selectedSlot].RefreshAmount();
+				}
+			}
 		}
 
 		if(!_controller.Grounded){
@@ -113,9 +127,11 @@ public class GameCanvasManager : MonoBehaviour {
 	void CheckIfAlreadyOwned(Item item){
 		tempSlot = 100;
 		for (int i = 0; i < slots.Length; i++){
-			if(slots[i].containedItem == item){
-				tempSlot = i;
-				break;
+			if(slots[i].containedItem != null){
+				if(slots[i].containedItem.name == item.name){
+					tempSlot = i;
+					break;
+				}
 			}
 		}
 	}

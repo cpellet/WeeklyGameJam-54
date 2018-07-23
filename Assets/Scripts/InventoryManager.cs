@@ -68,15 +68,7 @@ public class InventoryManager : MonoBehaviour {
 	public void pickup(){
 		itemToPickup = hit.transform.gameObject.GetComponent<CollectibleItem>();
 		Destroy(hit.transform.gameObject);
-		FoodRegen(itemToPickup.item);
 		gcm.AddItem(itemToPickup.item);
-	}
-
-	public void FoodRegen(Item item){
-		if(itemToPickup.item.itemType == Item.type.food){
-			gcm.Regen(itemToPickup.item.healthRegen);
-			am.BroadcastMessage(Color.green, itemToPickup.item.name + " : +" + itemToPickup.item.healthRegen+ " HP");
-		}
 	}
 	
 }
