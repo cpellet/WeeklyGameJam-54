@@ -10,6 +10,7 @@ public class GameCanvasManager : MonoBehaviour {
 	public Image[] healthComponents;
 	public Text healthLabel;
 	public Image damagePanel;
+	public GameObject pauseMenu;
 	private Image slotImage;
 	private int selectedSlot;
 	private int activeItems;
@@ -49,6 +50,10 @@ public class GameCanvasManager : MonoBehaviour {
 					swithSelection(selectedSlot-1);
 				}
 			}
+		}
+
+		if(Input.GetKeyDown(KeyCode.RightShift)){
+			pauseMenu.SetActive(true);
 		}
 
 		if(!_controller.Grounded){
