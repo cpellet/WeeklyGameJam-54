@@ -1,11 +1,15 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
+using System.Collections;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GameCanvasManager : MonoBehaviour {
 
 	public Slider healthSlider;
 	public Slider memoryRecoveredSlider;
-	public Item[] playerItems;
+	public Image[] healthComponents;
+	public Text healthLabel;
+	public Image damagePanel;
 	private Image slotImage;
 	private int selectedSlot;
 	private int activeItems;
@@ -13,11 +17,20 @@ public class GameCanvasManager : MonoBehaviour {
 	private int freeSlot;
 	private int tempSlot;
 
+	public float minSurviveFall = 1f; //the time that the player can spend in the air without taking damage
+    public int damageForSeconds; //damage taken for 1 second in air (for airTime = 1)
+    private RigidbodyFirstPersonController _controller;
+    private float airTime = 0;
+
+	public AnnouncerManager am;
+
 	void Start(){
+		_controller = GameObject.FindGameObjectWithTag("Player").GetComponent<RigidbodyFirstPersonController>();
 		healthSlider.value = 100;
 		memoryRecoveredSlider.value = 0;
 		activeItems = 0;
 		selectedSlot = 0;
+		damagePanel.enabled = false;
 	}
 
 	void Update(){
@@ -35,9 +48,21 @@ public class GameCanvasManager : MonoBehaviour {
 				}else{
 					swithSelection(selectedSlot-1);
 				}
-				Debug.Log(selectedSlot);
 			}
 		}
+
+		if(!_controller.Grounded){
+ 			airTime += Time.deltaTime;
+ 		}
+ 		if(_controller .Grounded){
+ 			if(airTime > minSurviveFall){
+				damageForSeconds = 18;
+ 				healthSlider.value -= damageForSeconds * airTime;
+				CheckHealth();
+				StartCoroutine(ShowDamage());
+ 			}
+ 		airTime = 0;
+ 		}
 	}
 
 	public void AddItem(Item item){
@@ -88,5 +113,34 @@ public class GameCanvasManager : MonoBehaviour {
 				break;
 			}
 		}
+	}
+
+	void CheckHealth(){
+		if (healthSlider.value <= 30){
+			for (int i = 0; i < healthComponents.Length; i++){
+				healthComponents[i].color = Color.red;
+			}
+			healthLabel.color = Color.red;
+		}else{
+			for (int i = 0; i < healthComponents.Length; i++){
+				healthComponents[i].color = Color.white;
+			}
+			healthLabel.color = Color.white;
+		}
+	}
+
+	public void Regen(int health){
+		healthSlider.value += health;
+		CheckHealth();
+	}
+
+	public IEnumerator ShowDamage(){
+		damagePanel.enabled = true;
+		damagePanel.gameObject.GetComponent<Animator>().enabled = true;
+		yield return new WaitForSeconds(2);
+		damagePanel.enabled = false;
+		damagePanel.gameObject.GetComponent<Animator>().enabled = false;
+		damagePanel.gameObject.GetComponent<Animator>().Rebind();
+		StopCoroutine(ShowDamage());
 	}
 }

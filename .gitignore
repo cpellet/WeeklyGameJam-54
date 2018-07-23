@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+KSEditorLogs/sf_20180722\.log
+
+*.log

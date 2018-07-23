@@ -9,4 +9,5 @@ public class Item {
 	public type itemType;
 	public Sprite preview;
 	public GameObject prefab;
+	public int healthRegen;
 }
