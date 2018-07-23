@@ -57,15 +57,18 @@ public class GameCanvasManager : MonoBehaviour {
 			} 
 			if(slots[selectedSlot].containedItem.itemType == Item.type.food){
 				if (slots[selectedSlot].amount == 1){
-					Regen(slots[selectedSlot].containedItem.healthRegen);
-					am.BroadcastMessage(Color.green, (slots[selectedSlot].containedItem.name + " : + " + slots[selectedSlot].containedItem.healthRegen.ToString() + " HP"));
-					slots[selectedSlot].Initialise();
-					slots[selectedSlot].gameObject.SetActive(false);
+					Regen(slots[selectedSlot].containedItem.healthRegen, slots[selectedSlot].containedItem.name);
+					if (healthSlider.value!=100){
+						slots[selectedSlot].Initialise();
+						slots[selectedSlot].gameObject.SetActive(false);
+					}
 				}else{
-					Regen(slots[selectedSlot].containedItem.healthRegen);
-					am.BroadcastMessage(Color.green, (slots[selectedSlot].containedItem.name + " : + " + slots[selectedSlot].containedItem.healthRegen.ToString() + " HP"));
-					slots[selectedSlot].amount -=1;
-					slots[selectedSlot].RefreshAmount();
+					Regen(slots[selectedSlot].containedItem.healthRegen, slots[selectedSlot].containedItem.name);
+					if (healthSlider.value!=100){
+						slots[selectedSlot].amount -=1;
+						slots[selectedSlot].RefreshAmount();
+					}
+
 				}
 			}
 		}
@@ -87,12 +90,17 @@ public class GameCanvasManager : MonoBehaviour {
 	public void AddItem(Item item){
 		CheckIfAlreadyOwned(item);
 		if (tempSlot != 100){
-			slots[tempSlot].amount ++;
-			slots[tempSlot].RefreshAmount();
+			FindFreeSlots();
+			if (freeSlot == 100){
+				am.BroadcastMessage(Color.yellow, "Inventory Full");
+			}else{
+				slots[tempSlot].amount ++;
+				slots[tempSlot].RefreshAmount();
+			}
 		}else{
 			FindFreeSlots();
 			if (freeSlot == 100){
-				Debug.Log("Inventory Full");
+				am.BroadcastMessage(Color.yellow, "Inventory Full");
 			}else{
 				if (activeItems == 0){
 					activeItems++;
@@ -150,9 +158,14 @@ public class GameCanvasManager : MonoBehaviour {
 		}
 	}
 
-	public void Regen(int health){
-		healthSlider.value += health;
-		CheckHealth();
+	public void Regen(int health, string obj){
+		if(healthSlider.value == 100){
+			am.BroadcastMessage(Color.yellow, "Health already full");
+		}else{
+			healthSlider.value += health;
+			am.BroadcastMessage(Color.green, obj + " : +" + health + " HP");
+			CheckHealth();
+		}
 	}
 
 	public IEnumerator ShowDamage(){

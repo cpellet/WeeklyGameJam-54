@@ -10,4 +10,5 @@ public class Item {
 	public Sprite preview;
 	public GameObject prefab;
 	public int healthRegen;
+	public string description;
 }
