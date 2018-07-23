@@ -30,6 +30,10 @@ ModelImporter:
     100048: Stairs.001
     100050: Floors.000
     100052: Floors_Floor
+    100054: Cube
+    100056: Empty
+    100058: Empty.004
+    100060: Cube.001
     400000: Building_01
     400002: //RootNode
     400004: Floors_Corridor
@@ -57,6 +61,10 @@ ModelImporter:
     400048: Stairs.001
     400050: Floors.000
     400052: Floors_Floor
+    400054: Cube
+    400056: Empty
+    400058: Empty.004
+    400060: Cube.001
     2100000: No Name
     2300000: Building_01
     2300002: Floors_Corridor
@@ -84,6 +92,8 @@ ModelImporter:
     2300046: Stairs.001
     2300048: Floors.000
     2300050: Floors_Floor
+    2300052: Cube
+    2300054: Cube.001
     3300000: Building_01
     3300002: Floors_Corridor
     3300004: Floors_Flats
@@ -110,6 +120,8 @@ ModelImporter:
     3300046: Stairs.001
     3300048: Floors.000
     3300050: Floors_Floor
+    3300052: Cube
+    3300054: Cube.001
     4300000: Building_01
     4300002: Stairs
     4300004: Roof_Entrance
@@ -136,6 +148,8 @@ ModelImporter:
     4300046: Stairs.001
     4300048: Floors.000
     4300050: Floors_Floor
+    4300052: Cube
+    4300054: Cube.001
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
