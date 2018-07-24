@@ -70,6 +70,8 @@ public class GameCanvasManager : MonoBehaviour {
 					}
 
 				}
+			}else if (slots[selectedSlot].containedItem.itemType == Item.type.weapon){
+				_controller.gameObject.GetComponentInChildren<WeaponManager>().LoadWeapon(slots[selectedSlot].containedItem, _controller.cam);
 			}
 		}
 

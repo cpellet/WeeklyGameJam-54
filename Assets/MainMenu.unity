@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6078,7 +6078,9 @@ MonoBehaviour:
 
     UI : Unity sample assets
 
-    ALL models are custom-made'
+    Weapons by DEVASSETS
+
+    All other models are custom-made'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7df26d689ad274d39af6568e3b132cca, type: 2}
   m_sharedMaterial: {fileID: 21090744456694848, guid: 7df26d689ad274d39af6568e3b132cca,
@@ -6124,7 +6126,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 67
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -6147,12 +6149,12 @@ MonoBehaviour:
   m_margin: {x: -107.205956, y: 0, z: -107.243675, w: 0}
   m_textInfo:
     textComponent: {fileID: 1396128597}
-    characterCount: 72
+    characterCount: 99
     spriteCount: 0
-    spaceCount: 12
-    wordCount: 11
+    spaceCount: 16
+    wordCount: 15
     linkCount: 0
-    lineCount: 3
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -7841,7 +7843,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -126
+      value: -134
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_SizeDelta.x
