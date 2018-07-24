@@ -5,12 +5,37 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Building_02
     100002: //RootNode
+    100004: Building
+    100006: Elevator
+    100008: Roof
+    100010: Stairs
+    100012: Stairs.001
     400000: Building_02
     400002: //RootNode
+    400004: Building
+    400006: Elevator
+    400008: Roof
+    400010: Stairs
+    400012: Stairs.001
     2100000: No Name
     2300000: Building_02
+    2300002: Building
+    2300004: Elevator
+    2300006: Roof
+    2300008: Stairs
+    2300010: Stairs.001
     3300000: Building_02
+    3300002: Building
+    3300004: Elevator
+    3300006: Roof
+    3300008: Stairs
+    3300010: Stairs.001
     4300000: Building_02
+    4300002: Roof
+    4300004: Stairs
+    4300006: Elevator
+    4300008: Building
+    4300010: Stairs.001
   externalObjects: {}
   materials:
     importMaterials: 1
