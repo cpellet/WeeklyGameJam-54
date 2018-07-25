@@ -9,8 +9,10 @@ public class GameCanvasManager : MonoBehaviour {
 	public Image[] healthComponents;
 	public Text healthLabel;
 	public Image damagePanel;
+	public Image weaponIndicator;
 
 	public GameObject pauseMenu;
+	public GameObject deathMenu;
 
 	private int selectedSlot;
 	private int activeItems;
@@ -27,6 +29,7 @@ public class GameCanvasManager : MonoBehaviour {
 
 	void Start(){
 		_controller = GameObject.FindGameObjectWithTag("Player").GetComponent<RigidbodyFirstPersonController>();
+		GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<WeaponSwitching>().weaponIndicator = weaponIndicator;
 		healthSlider.value = 100;
 		activeItems = 0;
 		selectedSlot = 0;
@@ -34,22 +37,23 @@ public class GameCanvasManager : MonoBehaviour {
 	}
 
 	void Update(){
+		if(healthSlider.value <= 0){
+			deathMenu.SetActive(true);
+		}
 		if (activeItems != 0){
-			if (Input.GetAxis("Mouse ScrollWheel") > 0f){
-				if(selectedSlot == activeItems - 1){
-					swithSelection(0);
-				}else{
-					swithSelection(selectedSlot+1);
-				}
-				Debug.Log(selectedSlot);
-			}else if (Input.GetAxis("Mouse ScrollWheel") < 0f){
-				if (selectedSlot == 0){
-					swithSelection(activeItems-1);
-				}else{
-					swithSelection(selectedSlot-1);
-				}
+			if (Input.GetKeyDown(KeyCode.F1)){
+				swithSelection(0);
+			}else if (Input.GetKeyDown(KeyCode.F2)){
+				swithSelection(1);
+			}else if (Input.GetKeyDown(KeyCode.F3)){
+				swithSelection(2);
+			}else if (Input.GetKeyDown(KeyCode.F4)){
+				swithSelection(3);
+			}else if (Input.GetKeyDown(KeyCode.F5)){
+				swithSelection(5);
 			}
 		}
+
 
 		if(Input.GetKeyDown(KeyCode.E)){
 			if(slots[selectedSlot].containedItem == null){
@@ -70,8 +74,6 @@ public class GameCanvasManager : MonoBehaviour {
 					}
 
 				}
-			}else if (slots[selectedSlot].containedItem.itemType == Item.type.weapon){
-				_controller.gameObject.GetComponentInChildren<WeaponManager>().LoadWeapon(slots[selectedSlot].containedItem, _controller.cam);
 			}
 		}
 
@@ -168,6 +170,10 @@ public class GameCanvasManager : MonoBehaviour {
 			am.BroadcastMessage(Color.green, obj + " : +" + health + " HP");
 			CheckHealth();
 		}
+	}
+
+	public void Damage(){
+		StartCoroutine(ShowDamage());
 	}
 
 	public IEnumerator ShowDamage(){

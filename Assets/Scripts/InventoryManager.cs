@@ -32,6 +32,7 @@ public class InventoryManager : MonoBehaviour {
 	void Update(){
 		if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit)){
 			if (hit.transform.tag == "Collectibles"){
+				GameManager.canShoot=false;
 				crosshairImage.sprite = crosshairCollectible;
 				if (Input.GetMouseButtonDown(0)){
 					if (Vector3.Distance(playerCam.transform.position, hit.transform.position) < 2){
@@ -39,6 +40,7 @@ public class InventoryManager : MonoBehaviour {
 					}
 				}
 			}else{
+				GameManager.canShoot=true;
 				crosshairImage.sprite = crosshairNormal;
 			}
 		}
